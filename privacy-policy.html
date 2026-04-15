@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TikTok Ringtones Privacy Policy</title>
+    <style>
+        :root {
+            --bg: #f6f8fb;
+            --card: #ffffff;
+            --text: #18202a;
+            --muted: #516070;
+            --accent: #d61f69;
+            --border: #d9e0e8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            background: linear-gradient(180deg, #eef3f9 0%, var(--bg) 100%);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 40px 20px 80px;
+        }
+
+        article {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 32px;
+            box-shadow: 0 12px 30px rgba(24, 32, 42, 0.08);
+        }
+
+        h1, h2 {
+            line-height: 1.25;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            font-size: 1.15rem;
+            margin-top: 28px;
+            color: var(--accent);
+        }
+
+        p, li {
+            font-size: 1rem;
+        }
+
+        .meta {
+            color: var(--muted);
+            margin-bottom: 24px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>TikTok Ringtones Privacy Policy</h1>
+            <p class="meta">Last updated: April 15, 2026</p>
+
+            <p>
+                TikTok Ringtones respects user privacy and is designed to provide ringtone browsing,
+                audio preview, and ringtone-setting features with minimal data access.
+            </p>
+
+            <h2>Core Functionality</h2>
+            <p>
+                The app allows users to browse ringtone items, preview ringtone audio, and set a
+                selected sound as the device ringtone after a user-initiated action.
+            </p>
+
+            <h2>Permissions We Use</h2>
+            <ul>
+                <li><strong>Modify system settings (`WRITE_SETTINGS`):</strong> used only when a user chooses to set a ringtone.</li>
+                <li><strong>Foreground service / media playback:</strong> used to support audio preview while the app is active or running in the background during playback.</li>
+                <li><strong>Internet / network state:</strong> used for normal app connectivity and Google Play delivery-related behavior where applicable.</li>
+                <li><strong>Legacy external storage on Android 9 and below:</strong> used only for compatibility when writing ringtone media on older Android versions.</li>
+            </ul>
+
+            <h2>How Audio Content Is Delivered</h2>
+            <p>
+                The app uses Google Play Asset Delivery to obtain bundled audio content that is part
+                of the app experience. The app does not require the user to browse arbitrary audio
+                files from device storage for the current ringtone flow.
+            </p>
+
+            <h2>How Ringtone Setting Works</h2>
+            <p>
+                When a user explicitly chooses to set a ringtone, the app may request access to
+                modify system settings so the selected sound can be applied as the device ringtone.
+                This access is used only after a direct user action.
+            </p>
+
+            <h2>Background Playback</h2>
+            <p>
+                The app may use a foreground media playback service to preview audio. When preview
+                is active, Android may display a playback notification so the user can manage or stop
+                playback.
+            </p>
+
+            <h2>Data We Do Not Access for Core Features</h2>
+            <ul>
+                <li>Contacts</li>
+                <li>Messages</li>
+                <li>Call logs</li>
+                <li>Location</li>
+                <li>Camera</li>
+                <li>Microphone recording</li>
+                <li>Photo library</li>
+                <li>Arbitrary user audio files from device storage for the current ringtone flow</li>
+            </ul>
+
+            <h2>Data Collection</h2>
+            <p>
+                The current implementation is intended to minimize data collection. The app does not
+                sell personal information. If future versions add analytics, crash reporting, ads,
+                account systems, or cloud sync, this policy should be updated before release.
+            </p>
+
+            <h2>Contact</h2>
+            <p>
+                Add your support contact email or company contact page here before publishing to
+                Google Play.
+            </p>
+        </article>
+    </main>
+</body>
+</html>
